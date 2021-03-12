@@ -1,0 +1,239 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: auto;
+    overflow-x: hidden;
+}
+hr{
+    margin-top: 10px;
+    width: 77.5%;
+    margin-left: 155px;
+}
+header{
+    width: 100%;
+    height: auto;
+    background-size: cover;
+    background-position: center;
+    background-image: url(/image/main-bg.png);
+   
+}
+
+/*----- navigation bar style -----*/
+.container-nav {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    box-sizing: border-box;
+    justify-content: space-between;
+}
+
+.navbar .nav {
+    margin: 0;
+    display: flex;
+    list-style: none;
+}
+
+.navbar .nav .nav-list,
+.brand{
+    padding: 15px;
+}
+
+.brand .nav{
+    margin-top: 5px;
+}
+.nav .nav-link{
+    color: #ffff;
+}
+.nav .nav-link:hover{
+    color: red;
+    font-weight: bold;
+}
+.navbar .nav .nav-list .nav-link,
+.nav-brand {
+    text-decoration: none;
+    box-sizing: border-box;
+    text-transform: uppercase;
+}
+
+.nav-list{
+    margin-top: 45px;
+}
+
+/*----- Main -----*/
+main, .in-main{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    margin-left: 20px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+/*----- Body Content -----*/
+#body-content{
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+/*----- Content -----*/
+.content{
+    display: flex;
+}
+
+/*----- Aside -----*/
+aside{
+    width: 60%;
+    height: auto;
+}
+
+/*----- Comment -----*/
+.comment{
+    display: flex;
+}
+.photo-who-comment,
+.text-who-comment{
+    margin: 10px;
+}
+#p{
+    margin: 12px;
+}
+/*----- Detail -----*/
+#detail{
+    width: 40%;
+    height: auto;
+    margin-top: -30px;
+}
+
+#t1,
+#t2{
+    display: flex;
+}
+.tag-box{
+    height: 50px;
+    width: 150px;
+    margin: 10px;
+}
+.dev{
+    height: 50px;
+    width: 325px;
+    margin-left: 10px;
+    text-align: center;
+}
+#aside,
+#detail{
+    padding: 30px;
+}
+
+/*----- Related Post -----*/
+#related-post{
+    width: 100%;
+    height: 650px;
+    background: rgb(60, 95, 95);
+}
+#big-text-in-related-post{
+    padding: 30px;
+    color: #ffff;
+    text-align: center;
+}
+#box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#box1,
+#box2,
+#box3{
+    width: 400px;
+    height: auto;
+    margin: 10px; 
+}
+#white-color{
+    color: #ffff;
+    text-align: center;
+}
+/*----- Service -----*/
+.for-service{
+    display: flex;
+}
+/*----- Write Comment -----*/
+#black{
+    text-align: center;
+}
+.write-comment{
+    width: 100%;
+    height: 400px;
+}
+form{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.input{
+    display: flex;
+}
+input[type="text"]{
+    width: 50%;
+    height: 30px;
+    margin: 5px;
+}
+input[type="email"]{
+    width: 50%;
+    height: 30px;
+    margin: 5px;
+}
+input[type="submit"]{
+    background: #2ca7ee;
+    outline: none;
+    border: none;
+    margin-left: 5px;
+}
+textarea{
+    width: 100%;
+    height: 100px;
+}
+#send{
+    width: 100%;
+    height: 50px;
+    color:#ffff;
+    font-weight: bold;
+    border-radius: 5px;
+}
+#send:hover{
+    background: rgb(83, 112, 207);
+}
+
+/*----- Contact -----*/
+.in-contact{
+    display: flex;
+    background: rgb(60, 95, 95);
+}
+
+#all-in-contact{
+    display: flex;
+    margin-left: 30px;
+}
+
+#about-us,
+#get-in-touch,
+#social-media{
+    margin: 30px;
+}
+
+.social > a > i {
+    padding: 10px;
+    font-size: 40px;
+    color: #ffff;
+}
+
+/*----- Footer -----*/
+footer{
+    height: 40px;
+    display: flex;
+    color: #ffff;
+    margin-left: 30px;
+    margin-right: 30px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background: rgb(41, 198, 219);
+}
